@@ -1,0 +1,107 @@
+track RIN
+superTrack on show
+shortLabel  RIN
+longLabel RIN
+html examplePage
+
+
+track Peptide
+parent RIN
+type bigBed
+bigDataUrl Peptide.bb
+color 166,86,41
+itemRgb on
+visibility 1
+shortLabel Peptide
+longLabel Peptide
+
+track Ligand
+parent RIN
+type bigBed
+bigDataUrl Ligand.bb
+color 255,127,0
+itemRgb on
+visibility 1
+shortLabel Ligand
+longLabel Ligand
+
+track Surface
+parent RIN
+type bigBed
+bigDataUrl Surface.bb
+color 0,109,44
+itemRgb on
+visibility 1
+shortLabel Surface
+longLabel Surface
+
+track DNA
+parent RIN
+type bigBed
+bigDataUrl DNA.bb
+color 77,175,74
+itemRgb on
+visibility 1
+shortLabel DNA
+longLabel DNA
+
+track Metal
+parent RIN
+type bigBed
+bigDataUrl Metal.bb
+color 255,251,51
+itemRgb on
+visibility 1
+shortLabel Metal
+longLabel Metal
+
+track Disorder
+parent RIN
+type bigBed
+bigDataUrl Disorder.bb
+color 55,126,184
+itemRgb on
+visibility 1
+shortLabel Disorder
+longLabel Disorder
+
+track RNA
+parent RIN
+type bigBed
+bigDataUrl RNA.bb
+color 247,129,191
+itemRgb on
+visibility 1
+shortLabel RNA
+longLabel RNA
+
+track Protein
+parent RIN
+type bigBed
+bigDataUrl Protein.bb
+color 166,86,41
+itemRgb on
+visibility 1
+shortLabel Protein
+longLabel Protein
+
+track Core
+parent RIN
+type bigBed
+bigDataUrl Core.bb
+color 228,33,28
+itemRgb on
+visibility 1
+shortLabel Core
+longLabel Core
+
+track Ion
+parent RIN
+type bigBed
+bigDataUrl Ion.bb
+color 152,78,163
+itemRgb on
+visibility 1
+shortLabel Ion
+longLabel Ion
+

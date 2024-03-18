@@ -1,0 +1,106 @@
+track RINclass
+superTrack on show
+shortLabel RIN class
+longLabel Structural annotation by RIN class
+
+
+track Core
+parent RINclass
+bigDataUrl Core.bb
+shortLabel Core
+longLabel Core
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track DNA
+parent RINclass
+bigDataUrl DNA.bb
+shortLabel DNA
+longLabel DNA
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track Ligand
+parent RINclass
+bigDataUrl Ligand.bb
+shortLabel Ligand
+longLabel Ligand
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track Metal
+parent RINclass
+bigDataUrl Metal.bb
+shortLabel Metal
+longLabel Metal
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track Protein
+parent RINclass
+bigDataUrl Protein.bb
+shortLabel Protein
+longLabel Protein
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track Surface
+parent RINclass
+bigDataUrl Surface.bb
+shortLabel Surface
+longLabel Surface
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track Disorder
+parent RINclass
+bigDataUrl Disorder.bb
+shortLabel Disorder
+longLabel Disorder
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track Ion
+parent RINclass
+bigDataUrl Ion.bb
+shortLabel Ion
+longLabel Ion
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track Peptide
+parent RINclass
+bigDataUrl Peptide.bb
+shortLabel Peptide
+longLabel Peptide
+type bigWig
+visibility 1
+itemRgb on
+color 
+
+track RNA
+parent RINclass
+bigDataUrl RNA.bb
+shortLabel RNA
+longLabel RNA
+type bigWig
+visibility 1
+itemRgb on
+color 
+
